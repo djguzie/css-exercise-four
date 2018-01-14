@@ -1,4 +1,134 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #dadada;
+  background-color: white;
   font-size: 10px;
+  margin: 5%;
+}
+
+.container {
+  width: 100%;
+  background-color: #dadada;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+h1.emphasis {
+  font-family: Eurostile, sans-serif;
+  letter-spacing: 3px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin: 25px;
+  padding-top: 25px;
+}
+
+.preview {
+  font-size: 2em;
+  margin-bottom: 20px;
+  padding: 100px;
+}
+
+.baku {
+  background-image: url("/images/baku.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 575px){
+.baku {
+  background-size: cover;
+  float:left;
+  width: 48%;
+  margin:1%;
+  }
+}
+
+@media screen and (min-width: 991px){
+.baku {
+  float:left;
+  width: 23%;
+  margin:1%;
+  background-size: cover;
+  }
+}
+
+.london {
+  background-image: url("/images/london.png");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+@media screen and (min-width: 575px){
+.london {
+  float:left;
+  width: 48%;
+  margin:1%;
+  background-size: cover;
+  }
+}
+
+@media screen and (min-width: 991px){
+.london {
+  float:left;
+  width: 23%;
+  margin:1%;
+  background-size: cover;
+  }
+}
+
+.madrid {
+  background-image: url("/images/madrid.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 575px){
+.madrid {
+  float:left;
+  width: 48%;
+  background-size: cover;
+  margin:1%;
+  }
+}
+
+@media screen and (min-width: 991px){
+.madrid {
+  float:left;
+  width: 23%;
+  margin:1%;
+  background-size: cover;
+  }
+}
+
+.rome {
+  background-image: url("/images/rome.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 575px){
+.rome {
+  float:left;
+  width: 48%;
+  margin:1%;
+  background-size: cover;
+  }
+}
+
+@media screen and (min-width: 991px){
+.rome {
+  float:left;
+  width: 23%;
+  margin:1%;
+  background-size: cover;
+  }
 }
