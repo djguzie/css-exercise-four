@@ -11,10 +11,14 @@ body {
 .container {
   width: 100%;
   background-color: #dadada;
+  float:left;
+  height:auto;
 }
 
 h1 {
   font-size: 1em;
+  transform:translateX(100px);
+  transform:translate(-90px,-90px);
 }
 
 h1.emphasis {
@@ -23,112 +27,54 @@ h1.emphasis {
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: 700;
+  margin: 10px;
+  padding-top: 15px;
+  transform:translateX(0px);
   text-align: center;
-  margin: 25px;
-  padding-top: 25px;
 }
 
 .preview {
   font-size: 2em;
   margin-bottom: 20px;
   padding: 100px;
+  width: 100%;
+}
+
+@media screen and (min-width: 575px){
+.preview {
+  background-size: cover;
+  float:left;
+  width: 48%;
+  margin:1%;
+  }
+}
+
+@media screen and (min-width: 991px){
+.preview {
+  float:left;
+  width: 23%;
+  margin:1%;
+  background-size: cover;
+  }
 }
 
 .baku {
   background-image: url("/images/baku.jpg");
   background-size: cover;
-  width: 100%;
   height: auto;
-}
-
-@media screen and (min-width: 575px){
-.baku {
-  background-size: cover;
-  float:left;
-  width: 48%;
-  margin:1%;
-  }
-}
-
-@media screen and (min-width: 991px){
-.baku {
-  float:left;
-  width: 23%;
-  margin:1%;
-  background-size: cover;
-  }
 }
 
 .london {
   background-image: url("/images/london.png");
   background-size: cover;
-  width: 100%;
-  height: auto;
-}
-@media screen and (min-width: 575px){
-.london {
-  float:left;
-  width: 48%;
-  margin:1%;
-  background-size: cover;
-  }
-}
-
-@media screen and (min-width: 991px){
-.london {
-  float:left;
-  width: 23%;
-  margin:1%;
-  background-size: cover;
-  }
 }
 
 .madrid {
   background-image: url("/images/madrid.jpg");
   background-size: cover;
-  width: 100%;
-  height: auto;
-}
-
-@media screen and (min-width: 575px){
-.madrid {
-  float:left;
-  width: 48%;
-  background-size: cover;
-  margin:1%;
-  }
-}
-
-@media screen and (min-width: 991px){
-.madrid {
-  float:left;
-  width: 23%;
-  margin:1%;
-  background-size: cover;
-  }
 }
 
 .rome {
   background-image: url("/images/rome.jpg");
   background-size: cover;
-  width: 100%;
-  height: auto;
-}
-
-@media screen and (min-width: 575px){
-.rome {
-  float:left;
-  width: 48%;
-  margin:1%;
-  background-size: cover;
-  }
-}
-
-@media screen and (min-width: 991px){
-.rome {
-  float:left;
-  width: 23%;
-  margin:1%;
-  background-size: cover;
-  }
 }
